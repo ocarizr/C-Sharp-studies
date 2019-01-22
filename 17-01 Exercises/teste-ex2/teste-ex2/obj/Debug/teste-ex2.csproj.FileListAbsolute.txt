@@ -1,0 +1,11 @@
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\teste-ex2.exe.config
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\teste-ex2.exe
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\teste-ex2.pdb
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\obj\Debug\teste-ex2.csprojAssemblyReference.cache
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\obj\Debug\teste-ex2.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\obj\Debug\teste-ex2.exe
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\obj\Debug\teste-ex2.pdb
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rafae\Source\Repos\teste-ex2\teste-ex2\obj\Debug\teste-ex2.csproj.CopyComplete
