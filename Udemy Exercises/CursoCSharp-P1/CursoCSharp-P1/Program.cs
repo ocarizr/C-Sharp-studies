@@ -112,6 +112,34 @@ namespace CursoCSharp_P1
 
             c.ConditionResult = ClassExercise.InvertResult(c.ConditionResult);
             Console.WriteLine(c);
+
+            p.WaitAndClear();
+            
+            // Test first constructor
+            ConstructorExercise ce = new ConstructorExercise("Giovanna", 20, 1.55f, 'F');
+            Console.WriteLine(ce);
+
+            // Test Second Constructor
+            ConstructorExercise ce2 = new ConstructorExercise("Rafael", 28, 'M');
+            Console.WriteLine(ce2);
+
+            // Test Alternative Instantiation method
+            ConstructorExercise ce3 = new ConstructorExercise
+            {
+                Name = "Flávio Jr.",
+                Age = 14,
+                Gender = 'M',
+                Height = 1.7f
+            };
+            Console.WriteLine(ce3);
+
+            // Test standard constructor with data attribuition
+            ConstructorExercise ce4 = new ConstructorExercise();
+            ce4.Name = Console.ReadLine();
+            ce4.Age = int.Parse(Console.ReadLine());
+            ce4.Gender = char.Parse(Console.ReadLine());
+            ce4.Height = float.Parse(Console.ReadLine());
+            Console.WriteLine(ce4);
         }
     }
 }

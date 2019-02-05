@@ -9,3 +9,14 @@ C:\Users\rafae\Source\Repos\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.
 C:\Users\rafae\Source\Repos\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.AssemblyInfo.cs
 C:\Users\rafae\Source\Repos\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.dll
 C:\Users\rafae\Source\Repos\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.pdb
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\bin\Debug\netcoreapp2.1\CursoCSharp-P1.deps.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\bin\Debug\netcoreapp2.1\CursoCSharp-P1.runtimeconfig.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\bin\Debug\netcoreapp2.1\CursoCSharp-P1.runtimeconfig.dev.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\bin\Debug\netcoreapp2.1\CursoCSharp-P1.dll
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\bin\Debug\netcoreapp2.1\CursoCSharp-P1.pdb
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.csprojAssemblyReference.cache
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.AssemblyInfo.cs
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.dll
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P1\obj\Debug\netcoreapp2.1\CursoCSharp-P1.pdb

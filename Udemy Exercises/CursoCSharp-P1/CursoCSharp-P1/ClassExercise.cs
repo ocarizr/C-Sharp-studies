@@ -26,6 +26,7 @@
             ConditionResult = true;
         }
 
+        // Static Member Exercise
         public static bool InvertResult(bool a) // Return the oposite of the input (Logic port NOT)
         {
             return !a;
