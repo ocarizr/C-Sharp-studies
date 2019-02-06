@@ -13,21 +13,17 @@ namespace CursoCSharp_P1
         public ConstructorExercise() { }
 
         // First Constructor
-        public ConstructorExercise(string name, int age, float height, char gender)
-        {
-            Name = name;
-            Age = age;
-            Height = height;
-            Gender = gender;
-        }
-
-        // Second Constructor
         public ConstructorExercise(string name, int age, char gender)
         {
             Name = name;
             Age = age;
             Gender = gender;
-            Height = 0;
+        }
+
+        // Second Constructor
+        public ConstructorExercise(string name, int age, float height, char gender) : this(name, age, gender)
+        {
+            Height = height;
         }
 
         public override string ToString()

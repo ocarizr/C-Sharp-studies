@@ -88,6 +88,7 @@ namespace CursoCSharp_P1
         {
             var p = new Program();
             var c = new ClassExercise();
+            var e = new EncapsulationExercise();
             
             p.WriteLineLesson();
 
@@ -101,6 +102,7 @@ namespace CursoCSharp_P1
 
             p.WaitAndClear();
             
+            // Test all functions
             c.MinorThanTen(9);
             Console.WriteLine(c);
             c.MinorThanTen(11);
@@ -110,18 +112,19 @@ namespace CursoCSharp_P1
             c.Greater(2, 1);
             Console.WriteLine(c);
 
+            // Test the Static member
             c.ConditionResult = ClassExercise.InvertResult(c.ConditionResult);
             Console.WriteLine(c);
 
             p.WaitAndClear();
-            
-            // Test first constructor
-            ConstructorExercise ce = new ConstructorExercise("Giovanna", 20, 1.55f, 'F');
-            Console.WriteLine(ce);
 
-            // Test Second Constructor
+            // Test first constructor
             ConstructorExercise ce2 = new ConstructorExercise("Rafael", 28, 'M');
             Console.WriteLine(ce2);
+
+            // Test Second Constructor
+            ConstructorExercise ce = new ConstructorExercise("Giovanna", 20, 1.55f, 'F');
+            Console.WriteLine(ce);
 
             // Test Alternative Instantiation method
             ConstructorExercise ce3 = new ConstructorExercise
@@ -133,13 +136,40 @@ namespace CursoCSharp_P1
             };
             Console.WriteLine(ce3);
 
-            // Test standard constructor with data attribuition
+            // Test standard constructor with data attribution
             ConstructorExercise ce4 = new ConstructorExercise();
             ce4.Name = Console.ReadLine();
             ce4.Age = int.Parse(Console.ReadLine());
             ce4.Gender = char.Parse(Console.ReadLine());
             ce4.Height = float.Parse(Console.ReadLine());
             Console.WriteLine(ce4);
+
+            p.WaitAndClear();
+            
+            e.SetName("Rafael");
+            e.SetName("Giovanna");
+            e.SetAge(28);
+            e.SetBudget(1000.00);
+            e.SetBudget(500.00);
+            Console.WriteLine($"{e.GetName()}, {e.GetAge()} and R${e.GetBudget().ToString("F2", CultureInfo.InvariantCulture)}");
+            e.AddBudget(100.00);
+            Console.WriteLine(e);
+            e.ReduceBudget(250.00);
+            Console.WriteLine(e);
+
+            p.WaitAndClear();
+            
+            PropertiesExercises pr = new PropertiesExercises("PS4", 10, 500.00);
+            Console.WriteLine(pr.Name);
+            pr.Name = "XBOX ONE";
+            Console.WriteLine(pr.Name);
+            Console.WriteLine(pr.Ammount);
+            pr.AddAmmount(5);
+            Console.WriteLine(pr.Ammount);
+            pr.ReduceAmmount(8);
+            Console.WriteLine(pr.Ammount);
+            Console.WriteLine("$" + pr.Price.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine(pr);
         }
     }
 }
