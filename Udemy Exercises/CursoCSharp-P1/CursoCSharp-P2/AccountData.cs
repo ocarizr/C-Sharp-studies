@@ -14,9 +14,9 @@ namespace CursoCSharp_P2
             AccountNumber = accountNumber;
         }
 
-        public AccountData(string name, int accountNumber, double budget) : this(name, accountNumber)
+        public AccountData(string name, int accountNumber, double initialBudget) : this(name, accountNumber)
         {
-            Budget = budget;
+            Deposit(initialBudget);
         }
 
         public void Deposit(double value)
