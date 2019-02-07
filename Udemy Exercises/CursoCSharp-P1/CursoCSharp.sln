@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P1", "CursoCSharp-P1\CursoCSharp-P1.csproj", "{4BBBEA4E-BA01-4730-B807-7BD5EAD4205E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P2", "CursoCSharp-P2\CursoCSharp-P2.csproj", "{B865ED82-ED8A-4E23-88D2-D90BCFF5E012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P2", "CursoCSharp-P2\CursoCSharp-P2.csproj", "{B865ED82-ED8A-4E23-88D2-D90BCFF5E012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P3", "CursoCSharp-P3\CursoCSharp-P3.csproj", "{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B865ED82-ED8A-4E23-88D2-D90BCFF5E012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B865ED82-ED8A-4E23-88D2-D90BCFF5E012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B865ED82-ED8A-4E23-88D2-D90BCFF5E012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
