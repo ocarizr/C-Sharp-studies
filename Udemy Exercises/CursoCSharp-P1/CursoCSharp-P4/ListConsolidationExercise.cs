@@ -36,6 +36,11 @@ namespace CursoCSharp_P4
 
         public void UpdateSalary(int id, int value)
         {
+            if (Employees.Find(x => x.ID == id) == null)
+            {
+                Console.WriteLine("Invalid ID.");
+                return;
+            }
             Employees.Find(x => x.ID == id).SalaryUpdate(value);
         }
     }
