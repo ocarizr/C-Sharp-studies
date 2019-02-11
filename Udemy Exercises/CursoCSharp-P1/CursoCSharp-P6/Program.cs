@@ -6,7 +6,7 @@ namespace CursoCSharp_P6
     class Program
     {
         static void Main(string[] args)
-        {/*
+        {
             VarLesson();
 
             SwitchLesson();
@@ -30,8 +30,16 @@ namespace CursoCSharp_P6
             TimeSpanLesson();
 
             Console.WriteLine("----------------------------------------");
-            */
+            
             DateTimePropertiesLesson();
+
+            Console.WriteLine("----------------------------------------");
+            
+            TimeSpanProperties();
+
+            Console.WriteLine("----------------------------------------");
+            
+            DatetimeKindLesson();
         }
 
         public static void VarLesson()
@@ -194,6 +202,17 @@ namespace CursoCSharp_P6
             DayOfWeek dayOfWeek = d1.DayOfWeek;
             int hour = d1.Hour;
 
+            DateTime d2 = new DateTime(2018, 12, 31, 12, 0, 15);
+            DateTime d3 = d2.AddHours(2);
+            DateTime d4 = d2.AddDays(1);
+            DateTime d5 = d2.AddYears(1);
+
+            DateTime d6 = new DateTime(2018, 12, 20);
+            DateTime d7 = new DateTime(2018, 12, 31);
+
+            TimeSpan t1 = d7.Subtract(d6);
+
+
             Console.WriteLine(d1);
             Console.WriteLine(day);
             Console.WriteLine(month);
@@ -205,6 +224,67 @@ namespace CursoCSharp_P6
             Console.WriteLine(d1.AddDays(1));
             Console.WriteLine(d1.TimeOfDay);
             Console.WriteLine(d1.ToLongDateString());
+
+            Console.WriteLine("-------------------------------------------------");
+            Console.WriteLine(d2);
+            Console.WriteLine(d3);
+            Console.WriteLine(d4);
+            Console.WriteLine(d5);
+
+            Console.WriteLine(t1.Days);
+        }
+
+        public static void TimeSpanProperties()
+        {
+            TimeSpan t1 = TimeSpan.MaxValue;
+            TimeSpan t2 = TimeSpan.MinValue;
+            TimeSpan t3 = TimeSpan.Zero;
+
+            TimeSpan t4 = new TimeSpan(2, 10, 25, 50);
+
+            int days = t4.Days;
+            int hours = t4.Hours;
+            int minutes = t4.Minutes;
+            int seconds = t4.Seconds;
+
+            TimeSpan t5 = t4.Add(new TimeSpan(0, 20, 50));
+            TimeSpan t6 = t4.Subtract(t5);
+            TimeSpan t7 = t6.Multiply(2.0);
+            TimeSpan t8 = t7.Add(t5);
+            TimeSpan t9 = t8.Divide(3.0);
+
+            Console.WriteLine(t1);
+            Console.WriteLine(t2);
+            Console.WriteLine(t3);
+
+            Console.WriteLine("------------------------------");
+
+            Console.WriteLine(t4);
+            Console.WriteLine(days);
+            Console.WriteLine(hours);
+            Console.WriteLine(minutes);
+            Console.WriteLine(seconds);
+
+            Console.WriteLine("--------------------------------");
+
+            Console.WriteLine(t5);
+            Console.WriteLine(t6);
+            Console.WriteLine(t7);
+            Console.WriteLine(t8);
+            Console.WriteLine(t9);
+        }
+
+        public static void DatetimeKindLesson()
+        {
+            DateTime d1 = DateTime.Now;
+
+            DateTime d2 = d1.ToUniversalTime();
+
+            DateTime d3 = d2.ToLocalTime();
+
+            Console.WriteLine(d1);
+            Console.WriteLine(d2);
+            Console.WriteLine(d3);
         }
     }
 }
