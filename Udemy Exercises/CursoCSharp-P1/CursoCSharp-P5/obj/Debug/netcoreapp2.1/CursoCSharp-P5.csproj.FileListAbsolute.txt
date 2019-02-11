@@ -8,3 +8,4 @@ C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\C
 C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P5\obj\Debug\netcoreapp2.1\CursoCSharp-P5.AssemblyInfo.cs
 C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P5\obj\Debug\netcoreapp2.1\CursoCSharp-P5.dll
 C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P5\obj\Debug\netcoreapp2.1\CursoCSharp-P5.pdb
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P5\obj\Debug\netcoreapp2.1\CursoCSharp-P5.csprojAssemblyReference.cache

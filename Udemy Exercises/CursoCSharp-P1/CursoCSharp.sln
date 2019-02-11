@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P2", "CursoCSha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P3", "CursoCSharp-P3\CursoCSharp-P3.csproj", "{A6DA3B54-3C8C-4EF0-AC87-6B4A98F0708E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P4", "CursoCSharp-P4\CursoCSharp-P4.csproj", "{A75349F3-BBF8-4EC8-BA21-C6BC279A6E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P4", "CursoCSharp-P4\CursoCSharp-P4.csproj", "{A75349F3-BBF8-4EC8-BA21-C6BC279A6E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P5", "CursoCSharp-P5\CursoCSharp-P5.csproj", "{CCBFBE27-2E1B-4EDD-B59F-C8A830CD9183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P5", "CursoCSharp-P5\CursoCSharp-P5.csproj", "{CCBFBE27-2E1B-4EDD-B59F-C8A830CD9183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P6", "CursoCSharp-P6\CursoCSharp-P6.csproj", "{DAD7C545-7120-4481-8310-2D4171467847}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CCBFBE27-2E1B-4EDD-B59F-C8A830CD9183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBFBE27-2E1B-4EDD-B59F-C8A830CD9183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBFBE27-2E1B-4EDD-B59F-C8A830CD9183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD7C545-7120-4481-8310-2D4171467847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD7C545-7120-4481-8310-2D4171467847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD7C545-7120-4481-8310-2D4171467847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD7C545-7120-4481-8310-2D4171467847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
