@@ -13,5 +13,15 @@ namespace CursoCSharp_P7
         {
             Console.WriteLine("D");
         }
+
+        private void c()
+        {
+            Console.WriteLine("E");
+        }
+
+        public void d()
+        {
+            c();
+        }
     }
 }

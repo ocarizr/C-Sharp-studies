@@ -13,5 +13,10 @@ namespace CursoCSharp_P7
         {
             Console.WriteLine("B");
         }
+
+        public void Unique()
+        {
+            Console.WriteLine("This is Unique for the generalization.");
+        }
     }
 }
