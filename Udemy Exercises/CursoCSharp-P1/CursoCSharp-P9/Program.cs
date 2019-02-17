@@ -15,7 +15,6 @@ namespace CursoCSharp_P9
             double baseSalary;
 
             int ammountOfContracts;
-            HourContract contract = new HourContract();
 
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Enter department's name: ");
@@ -42,13 +41,13 @@ namespace CursoCSharp_P9
                 Console.WriteLine($"Enter #{i + 1} contract data:");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("Date (DD/MM/YYYY): ");
-                contract.Date = DateTime.Parse(Console.ReadLine());
+                DateTime contractDate = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: $");
-                contract.ValuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 Console.Write("Durantiom (Hours): ");
-                contract.Hours = int.Parse(Console.ReadLine());
+                int hours = int.Parse(Console.ReadLine());
 
-                worker.AddContract(contract);
+                worker.AddContract(new HourContract(contractDate, valuePerHour, hours));
             }
 
             Console.WriteLine();
