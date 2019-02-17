@@ -41,23 +41,23 @@ namespace CursoCSharp_P9
                 Console.WriteLine($"Enter #{i + 1} contract data:");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("Date (DD/MM/YYYY): ");
-                DateTime contractDate = DateTime.Parse(Console.ReadLine());
+                DateTime date = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: $");
                 double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 Console.Write("Durantiom (Hours): ");
                 int hours = int.Parse(Console.ReadLine());
 
-                worker.AddContract(new HourContract(contractDate, valuePerHour, hours));
+                worker.AddContract(new HourContract(date, valuePerHour, hours));
             }
 
             Console.WriteLine();
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
-            string[] date = Console.ReadLine().ToString().Split("/");
+            string[] monthAndYear = Console.ReadLine().ToString().Split("/");
             Console.WriteLine("Name: " + worker.Name);
             Console.WriteLine("Department: " + worker.Department);
             Console.WriteLine("Income for "
-                + date[0] + "/" + date[1] + ": $"
-                + worker.Income(int.Parse(date[1]), int.Parse(date[0]))
+                + monthAndYear[0] + "/" + monthAndYear[1] + ": $"
+                + worker.Income(int.Parse(monthAndYear[1]), int.Parse(monthAndYear[0]))
                 );
         }
     }
