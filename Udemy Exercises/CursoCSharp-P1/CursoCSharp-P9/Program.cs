@@ -57,7 +57,7 @@ namespace CursoCSharp_P9
             Console.WriteLine("Department: " + worker.Department.Name);
             Console.WriteLine("Income for "
                 + monthAndYear[0] + "/" + monthAndYear[1] + ": $"
-                + worker.Income(int.Parse(monthAndYear[1]), int.Parse(monthAndYear[0]))
+                + worker.Income(int.Parse(monthAndYear[1]), int.Parse(monthAndYear[0])).ToString("F2", CultureInfo.InvariantCulture)
                 );
         }
     }
