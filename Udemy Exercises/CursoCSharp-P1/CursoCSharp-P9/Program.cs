@@ -54,7 +54,7 @@ namespace CursoCSharp_P9
             Console.Write("Enter month and year to calculate income (MM/YYYY): ");
             string[] monthAndYear = Console.ReadLine().ToString().Split("/");
             Console.WriteLine("Name: " + worker.Name);
-            Console.WriteLine("Department: " + worker.Department);
+            Console.WriteLine("Department: " + worker.Department.Name);
             Console.WriteLine("Income for "
                 + monthAndYear[0] + "/" + monthAndYear[1] + ": $"
                 + worker.Income(int.Parse(monthAndYear[1]), int.Parse(monthAndYear[0]))
