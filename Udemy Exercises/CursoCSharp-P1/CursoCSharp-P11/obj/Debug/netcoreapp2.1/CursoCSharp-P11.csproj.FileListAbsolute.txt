@@ -1,0 +1,10 @@
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\bin\Debug\netcoreapp2.1\CursoCSharp-P11.deps.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\bin\Debug\netcoreapp2.1\CursoCSharp-P11.runtimeconfig.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\bin\Debug\netcoreapp2.1\CursoCSharp-P11.runtimeconfig.dev.json
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\bin\Debug\netcoreapp2.1\CursoCSharp-P11.dll
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\bin\Debug\netcoreapp2.1\CursoCSharp-P11.pdb
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\obj\Debug\netcoreapp2.1\CursoCSharp-P11.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\obj\Debug\netcoreapp2.1\CursoCSharp-P11.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\obj\Debug\netcoreapp2.1\CursoCSharp-P11.AssemblyInfo.cs
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\obj\Debug\netcoreapp2.1\CursoCSharp-P11.dll
+C:\Users\rafae\Documents\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P11\obj\Debug\netcoreapp2.1\CursoCSharp-P11.pdb
