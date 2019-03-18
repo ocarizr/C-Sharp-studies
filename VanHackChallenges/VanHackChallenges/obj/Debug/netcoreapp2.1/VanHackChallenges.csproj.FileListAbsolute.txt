@@ -1,0 +1,11 @@
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.AssemblyInfo.cs
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\bin\Debug\netcoreapp2.1\VanHackChallenges.deps.json
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\bin\Debug\netcoreapp2.1\VanHackChallenges.runtimeconfig.json
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\bin\Debug\netcoreapp2.1\VanHackChallenges.runtimeconfig.dev.json
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\bin\Debug\netcoreapp2.1\VanHackChallenges.dll
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\bin\Debug\netcoreapp2.1\VanHackChallenges.pdb
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.dll
+C:\Users\rafae\source\repos\VanHackChallenges\VanHackChallenges\obj\Debug\netcoreapp2.1\VanHackChallenges.pdb

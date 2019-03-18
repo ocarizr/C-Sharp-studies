@@ -1,29 +1,24 @@
-﻿using System;
-using CursoCSharp_P12.Entities;
+﻿using CursoCSharp_P12.Entities;
+using System;
 
 namespace CursoCSharp_P12
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
-        { 
+        private static void Main(string[] args)
+        {
+
             Account a = new BusinessAccount(1074, "Monica", 1000, 300);
             Account b = new SavingsAccount(1388, "Giovanna", 1500, 1.5);
 
             if (a is BusinessAccount)
             {
                 a.Deposit(100);
-            } else if (a is SavingsAccount)
-            {
-                a.Withdraw(100);
             }
 
             Console.WriteLine(a.Balance);
 
-            if (b is BusinessAccount)
-            {
-                b.Withdraw(100);
-            } else if (b is SavingsAccount)
+            if (b is SavingsAccount)
             {
                 ((SavingsAccount)b).UpdateBalance();
             }
@@ -36,10 +31,6 @@ namespace CursoCSharp_P12
             {
                 c = (BusinessAccount)a;
             }
-            else if (b is BusinessAccount)
-            {
-                c = b as BusinessAccount;
-            }
 
             Console.WriteLine(c.LoanLimit);
 
@@ -47,6 +38,14 @@ namespace CursoCSharp_P12
 
             Console.WriteLine(c.Balance);
             Console.WriteLine(c.LoanLimit);
+
+            a.Withdraw(50);
+            b.Withdraw(50);
+            c.Withdraw(50);
+
+            Console.WriteLine("$" + a.Balance);
+            Console.WriteLine("$" + b.Balance);
+            Console.WriteLine("$" + c.Balance);
         }
     }
 }

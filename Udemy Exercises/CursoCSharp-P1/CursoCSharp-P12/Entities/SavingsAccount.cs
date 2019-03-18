@@ -18,5 +18,10 @@ namespace CursoCSharp_P12.Entities
         {
             Balance += Balance * InterestRate / 100;
         }
+
+        public sealed override void Withdraw(double value)
+        {
+            Balance -= value;
+        }
     }
 }

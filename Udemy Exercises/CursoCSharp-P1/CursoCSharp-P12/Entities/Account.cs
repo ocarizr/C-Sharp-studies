@@ -20,9 +20,9 @@
             Balance += value;
         }
 
-        public void Withdraw(double value)
+        public virtual void Withdraw(double value)
         {
-            Balance -= value;
+            Balance -= value + 5;
         }
     }
 }
