@@ -2,7 +2,8 @@
 {
     class OutsourceEmployee : Employee
     {
-        public double AdditionalCharge { get; set; }
+        public double AdditionalCharge { get;}
+
         public OutsourceEmployee(string name, int hours, double valuePerHour, double additionalCharge) : base(name, hours, valuePerHour)
         {
             AdditionalCharge = additionalCharge;
