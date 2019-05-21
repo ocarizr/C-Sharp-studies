@@ -1,0 +1,11 @@
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\bin\Debug\netcoreapp2.1\CursoCSharp-P15.deps.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\bin\Debug\netcoreapp2.1\CursoCSharp-P15.runtimeconfig.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\bin\Debug\netcoreapp2.1\CursoCSharp-P15.runtimeconfig.dev.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\bin\Debug\netcoreapp2.1\CursoCSharp-P15.dll
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\bin\Debug\netcoreapp2.1\CursoCSharp-P15.pdb
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.csprojAssemblyReference.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.csproj.CoreCompileInputs.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.AssemblyInfoInputs.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.AssemblyInfo.cs
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.dll
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P15\obj\Debug\netcoreapp2.1\CursoCSharp-P15.pdb

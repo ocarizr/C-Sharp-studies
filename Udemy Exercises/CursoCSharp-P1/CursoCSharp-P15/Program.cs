@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using CursoCSharp_P15.Entities;
+﻿using CursoCSharp_P15.Entities;
 using CursoCSharp_P15.Entities.Exceptions;
+using System;
+using System.Collections.Generic;
 
 namespace CursoCSharp_P15
 {
@@ -28,8 +27,8 @@ namespace CursoCSharp_P15
                     DateTime checkIn = DateTime.Parse(Console.ReadLine());
                     Console.Write("check-out date: ");
                     DateTime checkOut = DateTime.Parse(Console.ReadLine());
-                    Reservation reservation = new Reservation(name, room, checkIn, checkOut);
 
+                    Reservation reservation = new Reservation(name, room, checkIn, checkOut);
                     reservations.Add(reservation);
 
                     Console.Write("Want to update the reservation dates? (y/n): ");
@@ -63,8 +62,9 @@ namespace CursoCSharp_P15
                 }
             }
 
-            Console.WriteLine();
+            if (reservations.Count == 0) return;
 
+            Console.WriteLine();
             Console.WriteLine("Reservations:");
 
             foreach (Reservation reservation in reservations)
