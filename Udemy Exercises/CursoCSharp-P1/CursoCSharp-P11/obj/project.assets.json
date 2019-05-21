@@ -520,7 +520,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {},
+    "C:\\Users\\IV\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\CursoCSharp-P11.csproj",
+      "projectUniqueName": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\CursoCSharp-P11.csproj",
       "projectName": "CursoCSharp-P11",
-      "projectPath": "D:\\GitHub\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\CursoCSharp-P11.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\obj\\",
+      "projectPath": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\CursoCSharp-P11.csproj",
+      "packagesPath": "C:\\Users\\IV\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P11\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IV\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

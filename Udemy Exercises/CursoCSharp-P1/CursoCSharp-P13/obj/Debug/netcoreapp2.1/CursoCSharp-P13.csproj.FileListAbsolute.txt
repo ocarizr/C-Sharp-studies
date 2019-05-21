@@ -9,3 +9,14 @@ D:\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Deb
 D:\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.AssemblyInfo.cs
 D:\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.dll
 D:\GitHub\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.pdb
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\bin\Debug\netcoreapp2.1\CursoCSharp-P13.deps.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\bin\Debug\netcoreapp2.1\CursoCSharp-P13.runtimeconfig.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\bin\Debug\netcoreapp2.1\CursoCSharp-P13.runtimeconfig.dev.json
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\bin\Debug\netcoreapp2.1\CursoCSharp-P13.dll
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\bin\Debug\netcoreapp2.1\CursoCSharp-P13.pdb
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.csprojAssemblyReference.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.csproj.CoreCompileInputs.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.AssemblyInfoInputs.cache
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.AssemblyInfo.cs
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.dll
+C:\Users\IV\Documents\Rafael\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P13\obj\Debug\netcoreapp2.1\CursoCSharp-P13.pdb
