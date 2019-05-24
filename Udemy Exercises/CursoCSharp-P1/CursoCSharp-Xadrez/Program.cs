@@ -1,6 +1,7 @@
 ﻿using System;
 using CursoCSharp_Xadrez.PecasDeXadrez;
 using CursoCSharp_Xadrez.Tabuleiro;
+using CursoCSharp_Xadrez.View;
 
 namespace CursoCSharp_Xadrez
 {
