@@ -1,0 +1,11 @@
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\bin\Debug\netcoreapp2.1\CursoCSharp-Xadrez.deps.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\bin\Debug\netcoreapp2.1\CursoCSharp-Xadrez.runtimeconfig.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\bin\Debug\netcoreapp2.1\CursoCSharp-Xadrez.runtimeconfig.dev.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\bin\Debug\netcoreapp2.1\CursoCSharp-Xadrez.dll
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\bin\Debug\netcoreapp2.1\CursoCSharp-Xadrez.pdb
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.csprojAssemblyReference.cache
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.csproj.CoreCompileInputs.cache
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.AssemblyInfoInputs.cache
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.AssemblyInfo.cs
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.dll
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-Xadrez\obj\Debug\netcoreapp2.1\CursoCSharp-Xadrez.pdb

@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P12", "CursoCSh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P13", "CursoCSharp-P13\CursoCSharp-P13.csproj", "{F0FE7983-39B3-43F9-BFEC-532488BEF8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P14", "CursoCSharp-P14\CursoCSharp-P14.csproj", "{E98F0722-A600-4432-9634-8C1DEB7C7404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P14", "CursoCSharp-P14\CursoCSharp-P14.csproj", "{E98F0722-A600-4432-9634-8C1DEB7C7404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-P15", "CursoCSharp-P15\CursoCSharp-P15.csproj", "{38F3A815-7895-4446-9521-11C5164C105B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoCSharp-P15", "CursoCSharp-P15\CursoCSharp-P15.csproj", "{38F3A815-7895-4446-9521-11C5164C105B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp-Xadrez", "CursoCSharp-Xadrez\CursoCSharp-Xadrez.csproj", "{578952AC-3FEE-41D6-A9FB-17A8B1FF063A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{38F3A815-7895-4446-9521-11C5164C105B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F3A815-7895-4446-9521-11C5164C105B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F3A815-7895-4446-9521-11C5164C105B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578952AC-3FEE-41D6-A9FB-17A8B1FF063A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578952AC-3FEE-41D6-A9FB-17A8B1FF063A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578952AC-3FEE-41D6-A9FB-17A8B1FF063A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578952AC-3FEE-41D6-A9FB-17A8B1FF063A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

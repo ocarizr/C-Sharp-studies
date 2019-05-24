@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\CursoCSharp-P14.csproj",
+      "projectUniqueName": "C:\\Users\\IV\\Downloads\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\CursoCSharp-P14.csproj",
       "projectName": "CursoCSharp-P14",
-      "projectPath": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\CursoCSharp-P14.csproj",
+      "projectPath": "C:\\Users\\IV\\Downloads\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\CursoCSharp-P14.csproj",
       "packagesPath": "C:\\Users\\IV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IV\\Documents\\Rafael\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\obj\\",
+      "outputPath": "C:\\Users\\IV\\Downloads\\C-Sharp-studies\\Udemy Exercises\\CursoCSharp-P1\\CursoCSharp-P14\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
