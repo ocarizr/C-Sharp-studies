@@ -39,6 +39,19 @@
             peca.Posicao = posicao;
         }
 
+        public Peca RetirarPeca(Posicao posicao)
+        {
+            if (ExistePeca(posicao))
+            {
+                Peca peca = GetPeca(posicao);
+                peca.Posicao = null;
+                _pecas[posicao.Linha, posicao.Coluna] = null;
+                return peca;
+            }
+
+            return null;
+        }
+
         public void ValidarPosicao(Posicao posicao)
         {
             if (!PosicaoValida(posicao)) throw new TabuleiroException("Posição inválida.");

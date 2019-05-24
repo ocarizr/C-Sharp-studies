@@ -1,5 +1,6 @@
 ﻿using CursoCSharp_Xadrez.Tabuleiro;
 using System;
+using CursoCSharp_Xadrez.Xadrez;
 
 namespace CursoCSharp_Xadrez.View
 {
@@ -23,7 +24,16 @@ namespace CursoCSharp_Xadrez.View
             Console.WriteLine("  a b c d e f g h");
         }
 
-        public static void ImprimirPeca(Peca peca)
+        public static PosicaoXadrez LerPosicaoXadrez()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1].ToString());
+
+            return new PosicaoXadrez(coluna, linha);
+        }
+
+        private static void ImprimirPeca(Peca peca)
         {
             if (peca.Cor == Cor.Branco)
             {

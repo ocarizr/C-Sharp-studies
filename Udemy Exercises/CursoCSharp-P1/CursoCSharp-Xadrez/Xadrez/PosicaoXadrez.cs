@@ -7,7 +7,7 @@ namespace CursoCSharp_Xadrez.Xadrez
         public char Coluna { get; set; }
         public int Linha { get; set; }
 
-        public PosicaoXadrez(int linha, char coluna)
+        public PosicaoXadrez(char coluna, int linha)
         {
             Coluna = coluna;
             Linha = linha;
