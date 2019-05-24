@@ -8,13 +8,19 @@ namespace CursoCSharp_Xadrez
     {
         static void Main(string[] args)
         {
-            var tabuleiro = new Tabuleiro.Tabuleiro(8, 8);
+            try
+            {
+                var tabuleiro = new Tabuleiro.Tabuleiro(8, 8);
+                
+                tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(0, 0));
+                tabuleiro.ColocarPeca(new Cavalo(tabuleiro, Cor.Preto), new Posicao(0, 1));
 
-            tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(0, 0));
-            tabuleiro.ColocarPeca(new Cavalo(tabuleiro, Cor.Preto), new Posicao(0, 1));
-
-            Tela.ImprimirTabuleiro(tabuleiro);
-
+                Tela.ImprimirTabuleiro(tabuleiro);
+            }
+            catch (TabuleiroException e)
+            {
+                Console.WriteLine("Erro na operação: " + e);
+            }
             Console.ReadLine();
         }
     }
