@@ -57,7 +57,7 @@
             if (!PosicaoValida(posicao)) throw new TabuleiroException("Posição inválida.");
         }
 
-        private bool PosicaoValida(Posicao posicao)
+        public bool PosicaoValida(Posicao posicao)
         {
             return posicao.Linha >= 0 && posicao.Linha < Linhas && posicao.Coluna >= 0 && posicao.Coluna < Colunas;
         }

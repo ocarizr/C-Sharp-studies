@@ -10,5 +10,10 @@ namespace CursoCSharp_Xadrez.PecasDeXadrez
         {
             return "C";
         }
+
+        public override bool[,] MovimentosPossiveis()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
