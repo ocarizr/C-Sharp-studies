@@ -15,6 +15,7 @@ namespace CursoCSharp_Xadrez
                 
                 tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.Preto), new Posicao(0, 0));
                 tabuleiro.ColocarPeca(new Cavalo(tabuleiro, Cor.Preto), new Posicao(0, 1));
+                tabuleiro.ColocarPeca(new Peao(tabuleiro, Cor.Branco), new Posicao(6, 5));
 
                 Tela.ImprimirTabuleiro(tabuleiro);
             }
