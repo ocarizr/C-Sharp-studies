@@ -1,5 +1,6 @@
 ﻿using CursoCSharp_Xadrez.Tabuleiro;
 using System;
+using System.Collections.Generic;
 using CursoCSharp_Xadrez.Xadrez;
 
 namespace CursoCSharp_Xadrez.View
@@ -46,6 +47,20 @@ namespace CursoCSharp_Xadrez.View
             Console.WriteLine("  a b c d e f g h");
         }
 
+        public static void ImprimirPartida(PartidaDeXadrez partida)
+        {
+            ImprimirTabuleiro(partida.Tabuleiro);
+
+            Console.WriteLine();
+
+            ImprimirPecasCapturadas(partida);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Turno: " + partida.Turno);
+            Console.WriteLine("Aguardando jogada: " + partida.JogadorAtual);
+        }
+
         public static PosicaoXadrez LerPosicaoXadrez()
         {
             string s = Console.ReadLine();
@@ -75,6 +90,31 @@ namespace CursoCSharp_Xadrez.View
 
                 Console.Write(" ");
             }
+        }
+
+        private static void ImprimirPecasCapturadas(PartidaDeXadrez partida)
+        {
+            Console.WriteLine("Peças capturadas:");
+
+            Console.Write("Brancas: ");
+            ImprimirConjunto(partida.PecasCapturadas(Cor.Branco));
+
+            Console.Write("Pretas: ");
+            ConsoleColor color = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            ImprimirConjunto(partida.PecasCapturadas(Cor.Preto));
+            Console.ForegroundColor = color;
+        }
+
+        private static void ImprimirConjunto(HashSet<Peca> pecasCapturadas)
+        {
+            Console.Write("[");
+            foreach (Peca peca in pecasCapturadas)
+            {
+                Console.Write(peca + " ");
+            }
+
+            Console.WriteLine("]");
         }
     }
 }

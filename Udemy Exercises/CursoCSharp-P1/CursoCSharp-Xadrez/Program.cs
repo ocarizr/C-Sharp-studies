@@ -18,12 +18,9 @@ namespace CursoCSharp_Xadrez
                     while (!partida.Terminada)
                     {
                         Console.Clear();
-                        Tela.ImprimirTabuleiro(partida.Tabuleiro);
+                        Tela.ImprimirPartida(partida);
 
                         Console.WriteLine();
-
-                        Console.WriteLine("Turno: " + partida.Turno);
-                        Console.WriteLine("Aguardando jogada: " + partida.JogadorAtual);
 
                         Console.Write("Origem: ");
                         Posicao origem = Tela.LerPosicaoXadrez().ToPosicao();

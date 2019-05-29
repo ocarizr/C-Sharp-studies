@@ -6,11 +6,6 @@ namespace CursoCSharp_Xadrez.PecasDeXadrez
     {
         public Torre(Tabuleiro.Tabuleiro tabuleiro, Cor cor) : base(tabuleiro, cor) { }
 
-        public override string ToString()
-        {
-            return "T";
-        }
-
         public override bool[,] MovimentosPossiveis()
         {
             bool[,] matriz = new bool[Tabuleiro.Linhas, Tabuleiro.Colunas];
@@ -73,6 +68,11 @@ namespace CursoCSharp_Xadrez.PecasDeXadrez
             Peca peca = Tabuleiro.GetPeca(posicao);
 
             return peca == null || peca.Cor != Cor;
+        }
+
+        public override string ToString()
+        {
+            return "T";
         }
     }
 }
