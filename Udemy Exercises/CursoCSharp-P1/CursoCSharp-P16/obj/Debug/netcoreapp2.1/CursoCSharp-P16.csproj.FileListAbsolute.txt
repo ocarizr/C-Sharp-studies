@@ -1,0 +1,11 @@
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\bin\Debug\netcoreapp2.1\CursoCSharp-P16.deps.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\bin\Debug\netcoreapp2.1\CursoCSharp-P16.runtimeconfig.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\bin\Debug\netcoreapp2.1\CursoCSharp-P16.runtimeconfig.dev.json
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\bin\Debug\netcoreapp2.1\CursoCSharp-P16.dll
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\bin\Debug\netcoreapp2.1\CursoCSharp-P16.pdb
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.csproj.CoreCompileInputs.cache
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.AssemblyInfoInputs.cache
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.AssemblyInfo.cs
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.dll
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.pdb
+C:\Users\IV\Downloads\C-Sharp-studies\Udemy Exercises\CursoCSharp-P1\CursoCSharp-P16\obj\Debug\netcoreapp2.1\CursoCSharp-P16.csprojAssemblyReference.cache
