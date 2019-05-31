@@ -43,7 +43,13 @@
             return false;
         }
 
-        public bool PodeMoverPara(Posicao posicao) => MovimentosPossiveis()[posicao.Linha, posicao.Coluna];
+        public bool MovimentoPossivel(Posicao posicao) => MovimentosPossiveis()[posicao.Linha, posicao.Coluna];
+
+        protected bool PodeMover(Posicao posicao)
+        {
+            Peca peca = Tabuleiro.GetPeca(posicao);
+            return peca == null || peca.Cor != Cor;
+        }
 
         public abstract bool[,] MovimentosPossiveis();
     }

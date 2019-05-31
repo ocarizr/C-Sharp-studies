@@ -38,6 +38,8 @@ namespace CursoCSharp_Xadrez.View
                     if (posicoesPossiveis[i, j]) Console.BackgroundColor = alteredBackground;
                     
                     ImprimirPeca(tabuleiro.GetPeca(i, j));
+
+                    if (Console.BackgroundColor != originalBackground) Console.BackgroundColor = originalBackground;
                 }
 
                 Console.WriteLine();
@@ -52,11 +54,9 @@ namespace CursoCSharp_Xadrez.View
             ImprimirTabuleiro(partida.Tabuleiro);
 
             Console.WriteLine();
-
             ImprimirPecasCapturadas(partida);
 
             Console.WriteLine();
-
             Console.WriteLine("Turno: " + partida.Turno);
 
             if (!partida.Terminada)
@@ -74,8 +74,7 @@ namespace CursoCSharp_Xadrez.View
                 Console.WriteLine();
                 Console.WriteLine("XEQUE MATE!");
                 Console.WriteLine($"Vencedor: {partida.JogadorAtual}!");
-            }
-            
+            }  
         }
 
         public static PosicaoXadrez LerPosicaoXadrez()

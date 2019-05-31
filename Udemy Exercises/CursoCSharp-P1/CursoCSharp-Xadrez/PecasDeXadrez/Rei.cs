@@ -6,73 +6,65 @@ namespace CursoCSharp_Xadrez.PecasDeXadrez
     {
         public Rei(Tabuleiro.Tabuleiro tabuleiro, Cor cor) : base(tabuleiro, cor) { }
 
-        public override string ToString()
-        {
-            return "R";
-        }
-
         public override bool[,] MovimentosPossiveis()
         {
-            bool[,] matriz = new bool[Tabuleiro.Linhas, Tabuleiro.Colunas];
-
-            Posicao posicao = new Posicao(0, 0);
+            var movimentosPossiveis = new bool[Tabuleiro.Linhas, Tabuleiro.Colunas];
+            var posicao = new Posicao(0, 0);
 
             posicao.AlterarPosicao(Posicao.Linha + 1, Posicao.Coluna);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha + 1, Posicao.Coluna + 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha, Posicao.Coluna + 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha - 1, Posicao.Coluna + 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha - 1, Posicao.Coluna);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha - 1, Posicao.Coluna - 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha, Posicao.Coluna - 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
             posicao.AlterarPosicao(Posicao.Linha + 1, Posicao.Coluna - 1);
             if (Tabuleiro.PosicaoValida(posicao) && PodeMover(posicao))
             {
-                matriz[posicao.Linha, posicao.Coluna] = true;
+                movimentosPossiveis[posicao.Linha, posicao.Coluna] = true;
             }
 
-            return matriz;
+            return movimentosPossiveis;
         }
 
-        private bool PodeMover(Posicao posicao)
+        public override string ToString()
         {
-            Peca peca = Tabuleiro.GetPeca(posicao);
-
-            return peca == null || peca.Cor != Cor;
+            return "R";
         }
     }
 }
