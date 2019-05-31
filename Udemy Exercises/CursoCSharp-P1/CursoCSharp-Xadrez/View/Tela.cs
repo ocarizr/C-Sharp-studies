@@ -59,6 +59,11 @@ namespace CursoCSharp_Xadrez.View
 
             Console.WriteLine("Turno: " + partida.Turno);
             Console.WriteLine("Aguardando jogada: " + partida.JogadorAtual);
+
+            if (partida.Xeque)
+            {
+                Console.WriteLine("XEQUE!");
+            }
         }
 
         public static PosicaoXadrez LerPosicaoXadrez()

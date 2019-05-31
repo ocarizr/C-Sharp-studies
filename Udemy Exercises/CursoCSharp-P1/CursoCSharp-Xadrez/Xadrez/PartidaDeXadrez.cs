@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CursoCSharp_Xadrez.PecasDeXadrez;
+﻿using CursoCSharp_Xadrez.PecasDeXadrez;
 using CursoCSharp_Xadrez.Tabuleiro;
+using System.Collections.Generic;
 
 namespace CursoCSharp_Xadrez.Xadrez
 {
@@ -12,6 +10,7 @@ namespace CursoCSharp_Xadrez.Xadrez
         public bool Terminada { get; }
         public int Turno { get; private set; }
         public Cor JogadorAtual { get; private set; }
+        public bool Xeque { get; private set; }
 
         private HashSet<Peca> _pecas;
         private HashSet<Peca> _pecasCapturadas;
@@ -22,6 +21,7 @@ namespace CursoCSharp_Xadrez.Xadrez
             Terminada = false;
             Turno = 1;
             JogadorAtual = Cor.Branco;
+            Xeque = false;
 
             _pecas = new HashSet<Peca>();
             _pecasCapturadas = new HashSet<Peca>();
@@ -31,24 +31,52 @@ namespace CursoCSharp_Xadrez.Xadrez
 
         public void RealizaJogada(Posicao origem, Posicao destino)
         {
-            ExecutaMovimento(origem, destino);
+            Peca pecaCapturada = ExecutaMovimento(origem, destino);
+
+            if (EstaEmXeque(JogadorAtual))
+            {
+                DesfazMovimento(origem, destino, pecaCapturada);
+                throw new TabuleiroException("Você não pode se colocar em Xeque!");
+            }
+
+            Xeque = EstaEmXeque(Adversário(JogadorAtual));
+
             Turno++;
             AlternaJogador();
         }
 
-        private void ExecutaMovimento(Posicao origem, Posicao destino)
+        private Peca ExecutaMovimento(Posicao origem, Posicao destino)
         {
+            Peca pecaCapturada = null;
+
             Peca peca = Tabuleiro.RetirarPeca(origem);
             peca.IncrementaQteDeMovimentos();
 
             if (Tabuleiro.ExistePeca(destino))
             {
-                Peca pecaCapturada = Tabuleiro.RetirarPeca(destino);
+                pecaCapturada = Tabuleiro.RetirarPeca(destino);
                 _pecasCapturadas.Add(pecaCapturada);
                 _pecas.Remove(pecaCapturada);
             }
 
             Tabuleiro.ColocarPeca(peca, destino);
+
+            return pecaCapturada;
+        }
+
+        private void DesfazMovimento(Posicao origem, Posicao destino, Peca pecaCapturada)
+        {
+            Peca peca = Tabuleiro.RetirarPeca(destino);
+            peca.DecrementaQteDeMovimentos();
+
+            Tabuleiro.ColocarPeca(peca, origem);
+
+            if (pecaCapturada != null)
+            {
+                Tabuleiro.ColocarPeca(pecaCapturada, destino);
+                _pecas.Add(pecaCapturada);
+                _pecasCapturadas.Remove(pecaCapturada);
+            }
         }
 
         private void AlternaJogador() => JogadorAtual = (JogadorAtual == Cor.Branco) ? Cor.Preto : Cor.Branco;
@@ -75,6 +103,24 @@ namespace CursoCSharp_Xadrez.Xadrez
             }
 
             return auxiliar;
+        }
+
+        public bool EstaEmXeque(Cor cor)
+        {
+            Peca rei = GetRei(cor);
+
+            if (rei == null) throw new TabuleiroException($"A cor {cor} não tem rei!");
+
+            foreach (Peca peca in PecasEmJogo(Adversário(cor)))
+            {
+                bool[,] movimentosPossiveis = peca.MovimentosPossiveis();
+                if (movimentosPossiveis[rei.Posicao.Linha, rei.Posicao.Coluna])
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public void ValidarPosicaoDeOrigem(Posicao origem)
@@ -135,6 +181,18 @@ namespace CursoCSharp_Xadrez.Xadrez
             ColocarNovaPeca('f', 7, new Peao(Tabuleiro, Cor.Preto));
             ColocarNovaPeca('d', 7, new Peao(Tabuleiro, Cor.Preto));
             ColocarNovaPeca('e', 7, new Peao(Tabuleiro, Cor.Preto));
+        }
+
+        private Cor Adversário(Cor cor) => cor == Cor.Branco ? Cor.Preto : Cor.Branco;
+
+        private Peca GetRei(Cor cor)
+        {
+            foreach (Peca peca in PecasEmJogo(cor))
+            {
+                if (peca is Rei) return peca;
+            }
+
+            return null;
         }
     }
 }
