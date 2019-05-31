@@ -7,7 +7,7 @@ namespace CursoCSharp_Xadrez.Xadrez
     class PartidaDeXadrez
     {
         public Tabuleiro.Tabuleiro Tabuleiro { get; }
-        public bool Terminada { get; }
+        public bool Terminada { get; private set; }
         public int Turno { get; private set; }
         public Cor JogadorAtual { get; private set; }
         public bool Xeque { get; private set; }
@@ -41,8 +41,15 @@ namespace CursoCSharp_Xadrez.Xadrez
 
             Xeque = EstaEmXeque(Adversário(JogadorAtual));
 
-            Turno++;
-            AlternaJogador();
+            if (XequeMate(Adversário(JogadorAtual)))
+            {
+                Terminada = true;
+            }
+            else
+            {
+                Turno++;
+                AlternaJogador();
+            }
         }
 
         private Peca ExecutaMovimento(Posicao origem, Posicao destino)
@@ -121,6 +128,35 @@ namespace CursoCSharp_Xadrez.Xadrez
             }
 
             return false;
+        }
+
+        public bool XequeMate(Cor cor)
+        {
+            if (!EstaEmXeque(cor)) return false;
+
+            foreach (Peca peca in PecasEmJogo(cor))
+            {
+                bool[,] movimentosPossiveis = peca.MovimentosPossiveis();
+
+                for (int i = 0; i < Tabuleiro.Linhas; i++)
+                {
+                    for (int j = 0; j < Tabuleiro.Colunas; j++)
+                    {
+                        if (movimentosPossiveis[i, j])
+                        {
+                            Posicao origem = peca.Posicao;
+                            Posicao destino = new Posicao(i, j);
+                            Peca pecaCapturada = ExecutaMovimento(origem, destino);
+                            bool testeXeque = EstaEmXeque(cor);
+                            DesfazMovimento(origem, destino, pecaCapturada);
+
+                            if (!testeXeque) return false;
+                        }
+                    }
+                }
+            }
+
+            return true;
         }
 
         public void ValidarPosicaoDeOrigem(Posicao origem)

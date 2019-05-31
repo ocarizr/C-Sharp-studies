@@ -13,9 +13,9 @@ namespace CursoCSharp_Xadrez
             {
                 PartidaDeXadrez partida = new PartidaDeXadrez();
 
-                try
+                while (!partida.Terminada)
                 {
-                    while (!partida.Terminada)
+                    try
                     {
                         Console.Clear();
                         Tela.ImprimirPartida(partida);
@@ -39,14 +39,16 @@ namespace CursoCSharp_Xadrez
 
                         partida.RealizaJogada(origem, destino);
                     }
+                    catch (TabuleiroException e)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine($"Erro na jogada: {e.Message}.");
+                        Console.ReadLine();
+                    }
                 }
-                catch (TabuleiroException e)
-                {
-                    Console.WriteLine();
-                    Console.WriteLine($"Erro na jogada: {e.Message}.");
-                    Console.ReadLine();
-                }
-                
+
+                Console.Clear();
+                Tela.ImprimirPartida(partida);
                 Console.ReadLine();
             }
             catch (TabuleiroException e)
