@@ -40,6 +40,22 @@ namespace CursoCSharp_Xadrez.Xadrez
                 throw new TabuleiroException("Você não pode se colocar em Xeque!");
             }
 
+            Peca peca = Tabuleiro.GetPeca(destino);
+
+            // Jogada especial
+            // Promoção
+            if (peca is Peao)
+            {
+                if ((peca.Cor == Cor.Branco && destino.Linha == 0) ||
+                    (peca.Cor == Cor.Preto && destino.Linha == 7))
+                {
+                    peca = Tabuleiro.RetirarPeca(destino);
+                    _pecas.Remove(peca);
+                    Peca rainha = new Rainha(Tabuleiro, peca.Cor);
+                    Tabuleiro.ColocarPeca(rainha, destino);
+                }
+            }
+
             Xeque = EstaEmXeque(Adversário(JogadorAtual));
 
             if (XequeMate(Adversário(JogadorAtual)))
