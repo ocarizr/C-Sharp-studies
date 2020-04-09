@@ -1,0 +1,11 @@
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.exe
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.deps.json
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.runtimeconfig.json
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.runtimeconfig.dev.json
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.dll
+D:\GitHub\BehavioutTest\bin\Debug\netcoreapp3.1\BehavioutTest.pdb
+D:\GitHub\BehavioutTest\obj\Debug\netcoreapp3.1\BehavioutTest.AssemblyInfoInputs.cache
+D:\GitHub\BehavioutTest\obj\Debug\netcoreapp3.1\BehavioutTest.AssemblyInfo.cs
+D:\GitHub\BehavioutTest\obj\Debug\netcoreapp3.1\BehavioutTest.dll
+D:\GitHub\BehavioutTest\obj\Debug\netcoreapp3.1\BehavioutTest.pdb
+D:\GitHub\BehavioutTest\obj\Debug\netcoreapp3.1\BehavioutTest.csprojAssemblyReference.cache
