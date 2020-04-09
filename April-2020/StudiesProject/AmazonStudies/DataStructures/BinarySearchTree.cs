@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace AmazonStudies.DataStructures
 {
@@ -88,20 +87,20 @@ namespace AmazonStudies.DataStructures
     {
         private BSTNode<T> _root;
 
-        public int Length { get; private set; }
+        public int Count { get; private set; }
 
-        public bool IsEmpty => Length == 0;
+        public bool IsEmpty => Count == 0;
 
         public BinarySearchTree()
         {
             _root = null;
-            Length = 0;
+            Count = 0;
         }
 
         public BinarySearchTree(T value)
         {
             _root = new BSTNode<T>(value);
-            Length = 1;
+            Count = 1;
         }
 
         public void Insert(T value)
@@ -109,9 +108,11 @@ namespace AmazonStudies.DataStructures
             if(_root == null)
             {
                 _root = new BSTNode<T>(value);
-                ++Length;
+                ++Count;
                 return;
             }
+
+            if (Contains(value)) return;
 
             var node = _root;
             var target = node.IsGreater(value) ? node.Lower : node.Greater;
@@ -125,18 +126,62 @@ namespace AmazonStudies.DataStructures
             if (node.IsGreater(value)) node.Lower = new BSTNode<T>(value);
             else node.Greater = new BSTNode<T>(value);
 
-            ++Length;
+            ++Count;
+        }
+
+        public void InsertBalanced(List<T> values)
+        {
+            switch (values.Count)
+            {
+                case 0:
+                    return;
+                case 1:
+                    Insert(values[0]);
+                    return;
+                default:
+                    var rootIndex = values.Count / 2;
+                    var rootValue = values[rootIndex];
+                    Insert(rootValue);
+
+                    var left = new List<T>();
+                    var right = new List<T>();
+
+                    for (var i = 0; i < rootIndex; ++i)
+                    {
+                        left.Add(values[i]);
+                    }
+
+                    for (var i = rootIndex + 1; i < values.Count; ++i)
+                    {
+                        right.Add(values[i]);
+                    }
+
+                    InsertBalanced(left);
+                    InsertBalanced(right);
+                    break;
+            }
         }
 
         public bool Contains(T value)
         {
-            var node = FindPosition(value);
+            var node = Find(value);
             return node != null;
+        }
+
+        public BSTNode<T> Find(T value)
+        {
+            var node = _root;
+            while (node != null && !node.Value.Equals(value))
+            {
+                node = value.CompareTo(node.Value) <= 0 ? node.Lower : node.Greater;
+            }
+
+            return node;
         }
 
         public void Remove(T value)
         {
-            var node = FindPosition(value);
+            var node = Find(value);
             if (node == null) throw new ArgumentException();
 
             if (node.Lower != null)
@@ -157,30 +202,7 @@ namespace AmazonStudies.DataStructures
             }
 
             node.Dispose();
-            --Length;
-        }
-
-        private BSTNode<T> FindPosition(T value)
-        {
-            var node = _root;
-            while (node != null && !node.Value.Equals(value))
-            {
-                node = value.CompareTo(node.Value) <= 0 ? node.Lower : node.Greater;
-            }
-
-            return node;
-        }
-
-        private BSTNode<T> FindGreaterLower(BSTNode<T> node)
-        {
-            node = node.Lower;
-
-            while(node.Greater != null)
-            {
-                node = node.Greater;
-            }
-
-            return node;
+            --Count;
         }
 
         /// <summary>
@@ -201,6 +223,34 @@ namespace AmazonStudies.DataStructures
             GetElementsOrdered(ref elements, node.Lower, false);
             elements.Add(node.Value);
             GetElementsOrdered(ref elements, node.Greater, false);
+        }
+
+        public void Clear()
+        {
+            var itens = new List<T>();
+            GetElementsOrdered(ref itens);
+
+            itens.ForEach(item => Remove(item));
+        }
+
+        public void BalanceTree()
+        {
+            var itens = new List<T>();
+            GetElementsOrdered(ref itens);
+            Clear();
+            InsertBalanced(itens);
+        }
+
+        private BSTNode<T> FindGreaterLower(BSTNode<T> node)
+        {
+            node = node.Lower;
+
+            while(node.Greater != null)
+            {
+                node = node.Greater;
+            }
+
+            return node;
         }
     }
 }

@@ -26,8 +26,8 @@
 
         private int Partition(ref int[] A, int iStart, int iEnd)
         {
-            var value = A[iEnd - 1];
             var pivot = iEnd - 1;
+            var value = A[pivot];            
 
             for(; iStart < iEnd - 1; ++iStart)
             {
