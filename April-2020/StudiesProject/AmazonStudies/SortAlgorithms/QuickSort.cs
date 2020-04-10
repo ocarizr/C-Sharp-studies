@@ -1,44 +1,43 @@
-﻿namespace AmazonStudies.SortAlgorithms
+﻿using System;
+
+namespace AmazonStudies.SortAlgorithms
 {
     public class QuickSort
     {
         public int[] Solution(int[] A)
         {
-            return Quicksort(ref A, 0, A.Length);
-        }
-
-        private int[] Quicksort(ref int[] A, int iStart, int iEnd)
-        {
-            if(iEnd - iStart == 1)
-            {
-                return A;
-            }
-
-            var pivot = Partition(ref A, iStart, iEnd);
-
-            if (pivot > iStart)
-                Quicksort(ref A, iStart, pivot);
-            else if (pivot < iEnd - 1)
-                Quicksort(ref A, pivot, iEnd);
-
+            Sort(ref A, 0, A.Length);
             return A;
         }
 
-        private int Partition(ref int[] A, int iStart, int iEnd)
+        public void Sort(ref int[] A, int begin, int end)
         {
-            var pivot = iEnd - 1;
-            var value = A[pivot];            
+            if (end <= begin) return;
 
-            for(; iStart < iEnd - 1; ++iStart)
+            var pivot = Partition(ref A, begin, end);
+
+            Sort(ref A, pivot + 1, end);
+            Sort(ref A, begin, pivot);
+        }
+
+        public int Partition(ref int[] A, int begin, int end)
+        {
+            var pivot = end - 1;
+            var pivotValue = A[pivot];
+            var i = begin;
+
+            for(var j = begin; j < pivot; ++j)
             {
-                if(A[iStart] > value)
+                if(A[j] <= pivotValue)
                 {
-                    (A[iStart], A[pivot]) = (A[pivot], A[iStart]);
-                    pivot = iStart;
+                    (A[j], A[i]) = (A[i], A[j]);
+                    ++i;
                 }
             }
 
-            return pivot;
+            (A[pivot], A[i]) = (A[i], A[pivot]);
+
+            return i;
         }
     }
 }

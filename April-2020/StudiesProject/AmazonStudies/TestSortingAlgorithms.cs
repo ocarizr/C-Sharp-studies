@@ -70,20 +70,21 @@ namespace AmazonStudies
             }
 
             //var array = new int[] { 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
+            var array = new int[] { 29, 15, 27, 25, 24, 28, 22, 21, 20, 19, 26, 18, 23, 17, 16, 14, 13, 12, 30, 11, 10, 4, 9, 8, 7, 6, 5, 1, 3, 2, 0 };
             //var array = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
-            //var result = sample.ToArray();
+            var result = sample.ToArray();
 
             Console.WriteLine(name);
 
             var t = DateTime.Now;
-            for (int i = 0; i < 10; ++i)
+            for (int i = 0; i < 1; ++i)
             {
-                //result = func(array);
-                func(sample.ToArray());
+                result = func(array);
+                //func(sample.ToArray());
             }
             var latency = CalcLatency(t);
 
-            //foreach (var i in result) Console.Write(i + " ");
+            foreach (var i in result) Console.Write(i + " ");
             // Console.WriteLine("- " + latency + " ms");
             Console.WriteLine(latency + " ms");
             Console.WriteLine();

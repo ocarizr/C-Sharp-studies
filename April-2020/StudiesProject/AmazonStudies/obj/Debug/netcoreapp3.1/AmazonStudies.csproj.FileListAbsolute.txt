@@ -24,3 +24,16 @@ D:\GitHub\GameHive_Test\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.Asse
 D:\GitHub\GameHive_Test\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.dll
 D:\GitHub\GameHive_Test\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.pdb
 D:\GitHub\GameHive_Test\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.genruntimeconfig.cache
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.exe
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.deps.json
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.runtimeconfig.json
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.runtimeconfig.dev.json
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.dll
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\bin\Debug\netcoreapp3.1\AmazonStudies.pdb
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.csprojAssemblyReference.cache
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.csproj.CoreCompileInputs.cache
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.AssemblyInfoInputs.cache
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.AssemblyInfo.cs
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.dll
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.pdb
+D:\GitHub\C-Sharp-studies\April-2020\StudiesProject\AmazonStudies\obj\Debug\netcoreapp3.1\AmazonStudies.genruntimeconfig.cache
