@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidAndPatterns", "SolidAndPatterns\SolidAndPatterns.csproj", "{6A599DB7-C084-4F0C-8794-AD62782227D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{07B65AAC-75C7-4DE5-977C-FC8F45132676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A599DB7-C084-4F0C-8794-AD62782227D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A599DB7-C084-4F0C-8794-AD62782227D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A599DB7-C084-4F0C-8794-AD62782227D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A599DB7-C084-4F0C-8794-AD62782227D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD3098C7-4C2C-4A81-9ACE-914209ED64C4}
+	EndGlobalSection
+EndGlobal
