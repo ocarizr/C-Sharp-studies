@@ -1,4 +1,4 @@
-﻿using System;
+﻿using SingleResponsibilityPrinciple;
 
 namespace SolidAndPatterns
 {
@@ -6,7 +6,8 @@ namespace SolidAndPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var app = new SRPApp();
+            app.Run();
         }
     }
 }

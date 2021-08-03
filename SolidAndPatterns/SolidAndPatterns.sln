@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidAndPatterns", "SolidAndPatterns\SolidAndPatterns.csproj", "{6A599DB7-C084-4F0C-8794-AD62782227D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidAndPatterns", "SolidAndPatterns\SolidAndPatterns.csproj", "{6A599DB7-C084-4F0C-8794-AD62782227D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{07B65AAC-75C7-4DE5-977C-FC8F45132676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{07B65AAC-75C7-4DE5-977C-FC8F45132676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{637A1513-2546-4BFE-A055-7DDFC06E2DCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B65AAC-75C7-4DE5-977C-FC8F45132676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637A1513-2546-4BFE-A055-7DDFC06E2DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637A1513-2546-4BFE-A055-7DDFC06E2DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637A1513-2546-4BFE-A055-7DDFC06E2DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637A1513-2546-4BFE-A055-7DDFC06E2DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
