@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OpenClosePrinciple\OpenClosePrinciple.csproj" />
     <ProjectReference Include="..\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj" />
   </ItemGroup>
 
