@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidAndPatterns", "SolidAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{07B65AAC-75C7-4DE5-977C-FC8F45132676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{637A1513-2546-4BFE-A055-7DDFC06E2DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{637A1513-2546-4BFE-A055-7DDFC06E2DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{3B2F17BA-9720-4308-8255-D1262824AFF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2F17BA-9720-4308-8255-D1262824AFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2F17BA-9720-4308-8255-D1262824AFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2F17BA-9720-4308-8255-D1262824AFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2F17BA-9720-4308-8255-D1262824AFF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 ﻿using SingleResponsibilityPrinciple;
 using OpenClosePrinciple;
 using LiskovSubstitutionPrinciple;
+using InterfaceSegregationPrinciple;
 
 namespace SolidAndPatterns
 {
@@ -10,7 +11,8 @@ namespace SolidAndPatterns
         {
             // RunSRPApp();
             // RunOCPApp();
-            RunLSPApp();
+            // RunLSPApp();
+            RunISPApp();
         }
 
         static void RunSRPApp()
@@ -28,6 +30,12 @@ namespace SolidAndPatterns
         static void RunLSPApp()
         {
             var app = new LSPApp();
+            app.Run();
+        }
+
+        static void RunISPApp()
+        {
+            var app = new ISPApp();
             app.Run();
         }
     }
