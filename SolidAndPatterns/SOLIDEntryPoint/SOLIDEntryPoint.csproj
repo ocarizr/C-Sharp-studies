@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj" />
+    <ProjectReference Include="..\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj" />
+    <ProjectReference Include="..\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj" />
+    <ProjectReference Include="..\OpenClosePrinciple\OpenClosePrinciple.csproj" />
+    <ProjectReference Include="..\SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj" />
+  </ItemGroup>
+
+</Project>
