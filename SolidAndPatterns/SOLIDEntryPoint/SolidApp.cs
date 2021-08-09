@@ -3,7 +3,6 @@ using InterfaceSegregationPrinciple;
 using LiskovSubstitutionPrinciple;
 using OpenClosePrinciple;
 using SingleResponsibilityPrinciple;
-using System;
 
 namespace SOLIDEntryPoint
 {
