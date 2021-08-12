@@ -13,8 +13,8 @@
 
         public string ChoreName { get; set; }
         public IPerson Owner { get; set; }
-        public double HoursWorked { get; set; } = 0;
-        public bool IsComplete { get; set; } = false;
+        public double HoursWorked { get; private set; } = 0;
+        public bool IsComplete { get; private set; } = false;
 
         public void CompleteChore()
         {

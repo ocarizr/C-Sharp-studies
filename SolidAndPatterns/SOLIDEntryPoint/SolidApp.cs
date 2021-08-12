@@ -1,4 +1,5 @@
 ﻿using DependencyInversionPrinciple;
+using DontRepeatYourself;
 using InterfaceSegregationPrinciple;
 using LiskovSubstitutionPrinciple;
 using OpenClosePrinciple;
@@ -14,7 +15,8 @@ namespace SOLIDEntryPoint
             // RunOCPApp();
             // RunLSPApp();
             // RunISPApp();
-            RunDIPApp();
+            // RunDIPApp();
+            RunDRYApp();
         }
 
         private void RunSRPApp()
@@ -44,6 +46,12 @@ namespace SOLIDEntryPoint
         private void RunDIPApp()
         {
             var app = new DIPApp();
+            app.Run();
+        }
+
+        private void RunDRYApp()
+        {
+            var app = new DRYApp();
             app.Run();
         }
     }

@@ -11,13 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrincip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{CF6244DB-C360-4B4E-92D5-7FA4C5AD3963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{3B2F17BA-9720-4308-8255-D1262824AFF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{3B2F17BA-9720-4308-8255-D1262824AFF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{9DB7DE9D-2065-41A9-B149-9CBC6B3DCA3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{9DB7DE9D-2065-41A9-B149-9CBC6B3DCA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDEntryPoint", "SOLIDEntryPoint\SOLIDEntryPoint.csproj", "{DEDB3F15-2D67-4094-80CF-D75A5428D7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDEntryPoint", "SOLIDEntryPoint\SOLIDEntryPoint.csproj", "{DEDB3F15-2D67-4094-80CF-D75A5428D7E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solid", "Solid", "{F6834426-714F-4CEF-9C91-351FDB538790}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DontRepeatYourself", "DontRepeatYourself\DontRepeatYourself.csproj", "{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRYAppTest", "DRYAppTest\DRYAppTest.csproj", "{84027A19-4972-4515-AAE4-606483792AEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DBC0C03D-A4A5-4DEC-8C26-8B27A8860E54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{DEDB3F15-2D67-4094-80CF-D75A5428D7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEDB3F15-2D67-4094-80CF-D75A5428D7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEDB3F15-2D67-4094-80CF-D75A5428D7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84027A19-4972-4515-AAE4-606483792AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84027A19-4972-4515-AAE4-606483792AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84027A19-4972-4515-AAE4-606483792AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84027A19-4972-4515-AAE4-606483792AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +78,9 @@ Global
 		{3B2F17BA-9720-4308-8255-D1262824AFF1} = {F6834426-714F-4CEF-9C91-351FDB538790}
 		{9DB7DE9D-2065-41A9-B149-9CBC6B3DCA3C} = {F6834426-714F-4CEF-9C91-351FDB538790}
 		{DEDB3F15-2D67-4094-80CF-D75A5428D7E8} = {F6834426-714F-4CEF-9C91-351FDB538790}
+		{047C07F2-5EDF-4B3D-8F61-B4A2B117AA86} = {F6834426-714F-4CEF-9C91-351FDB538790}
+		{84027A19-4972-4515-AAE4-606483792AEF} = {DBC0C03D-A4A5-4DEC-8C26-8B27A8860E54}
+		{DBC0C03D-A4A5-4DEC-8C26-8B27A8860E54} = {F6834426-714F-4CEF-9C91-351FDB538790}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD3098C7-4C2C-4A81-9ACE-914209ED64C4}

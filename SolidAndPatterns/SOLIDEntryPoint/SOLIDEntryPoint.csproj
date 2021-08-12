@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj" />
+    <ProjectReference Include="..\DontRepeatYourself\DontRepeatYourself.csproj" />
     <ProjectReference Include="..\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj" />
     <ProjectReference Include="..\LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj" />
     <ProjectReference Include="..\OpenClosePrinciple\OpenClosePrinciple.csproj" />
