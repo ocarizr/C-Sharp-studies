@@ -3,6 +3,6 @@
     interface IWalkingAnimal : IAnimal
     {
         int Legs { get; }
-        IBehaviour Walk { get; }
+        void Walk();
     }
 }

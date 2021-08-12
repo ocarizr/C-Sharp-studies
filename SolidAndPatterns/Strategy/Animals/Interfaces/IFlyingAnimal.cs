@@ -2,6 +2,6 @@
 {
     interface IFlyingAnimal : IAnimal
     {
-        IBehaviour Fly { get; }
+        void Fly();
     }
 }

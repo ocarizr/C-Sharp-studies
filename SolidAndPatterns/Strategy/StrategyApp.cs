@@ -10,14 +10,14 @@
             var fly = new FlyBehaviour();
 
             IWalkingAnimal slowDog = new Dog(walk, sleep, eat);
-            slowDog.Walk.Execute();
-            slowDog.Eat.Execute();
-            slowDog.Sleep.Execute();
+            slowDog.Walk();
+            slowDog.Eat();
+            slowDog.Sleep();
 
             IFlyingAnimal duck = new FlyingDuck(fly, sleep, eat);
-            duck.Fly.Execute();
-            duck.Eat.Execute();
-            duck.Sleep.Execute();
+            duck.Fly();
+            duck.Eat();
+            duck.Sleep();
         }
     }
 }

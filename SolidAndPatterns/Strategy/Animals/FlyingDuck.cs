@@ -16,8 +16,8 @@
             _eat = eat;
         }
 
-        public IBehaviour Fly => _fly;
-        public IBehaviour Sleep => _sleep;
-        public IBehaviour Eat => _eat;
+        public void Eat() => _eat.Execute();
+        public void Fly() => _fly.Execute();
+        public void Sleep() => _sleep.Execute();
     }
 }

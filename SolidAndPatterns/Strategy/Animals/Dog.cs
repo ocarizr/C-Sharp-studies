@@ -18,8 +18,9 @@
         }
 
         public int Legs { get; }
-        public IBehaviour Walk => _walk;
-        public IBehaviour Sleep => _sleep;
-        public IBehaviour Eat => _eat;
+
+        public void Eat() => _eat.Execute();
+        public void Sleep() => _sleep.Execute();
+        public void Walk() => _walk.Execute();
     }
 }
