@@ -1,4 +1,5 @@
-﻿using SOLIDEntryPoint;
+﻿using DesignPatternsEntryPoint;
+using SOLIDEntryPoint;
 
 namespace SolidAndPatterns
 {
@@ -6,12 +7,19 @@ namespace SolidAndPatterns
     {
         static void Main(string[] args)
         {
-            RunSolidApp();
+            // RunSolidApp();
+            RunDPApp();
         }
 
         static void RunSolidApp()
         {
             var app = new SolidApp();
+            app.Run();
+        }
+
+        static void RunDPApp()
+        {
+            var app = new DPEntryPointApp();
             app.Run();
         }
     }

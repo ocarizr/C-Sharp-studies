@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatternsEntryPoint\DesignPatternsEntryPoint.csproj" />
     <ProjectReference Include="..\SOLIDEntryPoint\SOLIDEntryPoint.csproj" />
   </ItemGroup>
 

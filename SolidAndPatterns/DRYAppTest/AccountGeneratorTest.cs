@@ -10,14 +10,18 @@ public class AccountGeneratorTest
     [InlineData("Jo", "Soarez", "josoar")]
     [InlineData("Chi", "Tzu", "chitzu")]
     [InlineData("Nana", "", "nana")]
-    [InlineData("", "nana", "nana")]
+    [InlineData("", "Nana", "nana")]
     [InlineData("", "", "")]
     public void GenerateAccountTest(string firstName, string lastName, string expectedAccountPrefix)
     {
+        // Orchestrate
         var generator = new AccountGenerator();
 
+        // Act
         var obtained = generator.Generate(new Person { FirstName = firstName, LastName = lastName });
         var sections = obtained.Split("#");
+
+        // Assert
         Assert.Equal(0, string.Compare(sections[0], expectedAccountPrefix));
     }
 }
