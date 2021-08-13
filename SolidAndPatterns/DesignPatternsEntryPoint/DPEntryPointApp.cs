@@ -1,4 +1,5 @@
-﻿using Strategy;
+﻿using Observer;
+using Strategy;
 
 namespace DesignPatternsEntryPoint
 {
@@ -6,12 +7,19 @@ namespace DesignPatternsEntryPoint
     {
         public void Run()
         {
-            RunStrategyApp();
+            // RunStrategyApp();
+            RunObserverApp();
         }
 
         private void RunStrategyApp()
         {
             var app = new StrategyApp();
+            app.Run();
+        }
+
+        private void RunObserverApp()
+        {
+            var app = new ObserverApp();
             app.Run();
         }
     }

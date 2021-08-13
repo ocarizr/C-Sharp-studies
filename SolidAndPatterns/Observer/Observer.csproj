@@ -5,9 +5,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Observer\Observer.csproj" />
-    <ProjectReference Include="..\Strategy\Strategy.csproj" />
-  </ItemGroup>
-
 </Project>
