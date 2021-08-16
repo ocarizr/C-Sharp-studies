@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Strategy\Strategy.csproj" />
   </ItemGroup>

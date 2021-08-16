@@ -33,7 +33,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E7F03DF8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{F511ECC3-267F-4551-8A1E-9D230FDD365D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{909C7DD4-6FF6-4FBF-A9DB-0B37AE1D70A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{909C7DD4-6FF6-4FBF-A9DB-0B37AE1D70A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{03CF5B18-5473-4D6E-87E8-787A1745F466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{909C7DD4-6FF6-4FBF-A9DB-0B37AE1D70A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909C7DD4-6FF6-4FBF-A9DB-0B37AE1D70A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909C7DD4-6FF6-4FBF-A9DB-0B37AE1D70A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CF5B18-5473-4D6E-87E8-787A1745F466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CF5B18-5473-4D6E-87E8-787A1745F466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CF5B18-5473-4D6E-87E8-787A1745F466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CF5B18-5473-4D6E-87E8-787A1745F466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
