@@ -7,8 +7,8 @@
         private IBehaviour _eat;
 
         public Dog(
-            IBehaviour walk, 
-            IBehaviour sleep, 
+            IBehaviour walk,
+            IBehaviour sleep,
             IBehaviour eat)
         {
             _walk = walk;

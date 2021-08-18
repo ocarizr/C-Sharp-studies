@@ -1,4 +1,5 @@
 ﻿using Decorator;
+using FactoryMethod;
 using Observer;
 using Strategy;
 
@@ -10,7 +11,8 @@ namespace DesignPatternsEntryPoint
         {
             // RunStrategyApp();
             // RunObserverApp();
-            RunDecoratorApp();
+            // RunDecoratorApp();
+            RunFactoryMethodApp();
         }
 
         private void RunStrategyApp()
@@ -28,6 +30,12 @@ namespace DesignPatternsEntryPoint
         private void RunDecoratorApp()
         {
             var app = new DecoratorApp();
+            app.Run();
+        }
+
+        private void RunFactoryMethodApp()
+        {
+            var app = new FactoryMethodApp();
             app.Run();
         }
     }

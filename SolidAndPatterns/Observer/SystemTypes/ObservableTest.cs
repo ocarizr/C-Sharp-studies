@@ -19,7 +19,7 @@
 
         public void Pump()
         {
-            if(_observers.Count == 0)
+            if (_observers.Count == 0)
             {
                 return;
             }
@@ -39,7 +39,7 @@
                 {
                     var before = _observers.Count;
                     _observers[i].OnCompleted();
-                    if(_observers.Count == before)
+                    if (_observers.Count == before)
                     {
                         i++;
                     }

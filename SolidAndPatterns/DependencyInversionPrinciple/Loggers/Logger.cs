@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DependencyInversionPrinciple
+﻿namespace DependencyInversionPrinciple
 {
     class Logger : ILogger
     {

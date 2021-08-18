@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DependencyInversionPrinciple
+﻿namespace DependencyInversionPrinciple
 {
     public class DIPApp
     {
@@ -15,7 +13,7 @@ namespace DependencyInversionPrinciple
             var chore = Factory.CreateChore();
             chore.ChoreName = "La La La";
             chore.Owner = owner;
-            
+
             chore.PerformedWork(3);
             chore.PerformedWork(1.5);
             chore.CompleteChore();

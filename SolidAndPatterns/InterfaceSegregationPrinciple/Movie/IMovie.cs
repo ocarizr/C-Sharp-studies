@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-
-namespace InterfaceSegregationPrinciple
+﻿namespace InterfaceSegregationPrinciple
 {
     interface IMovie : IPlayable
     {
-        string? Director {  get; set; }
-        List<string> Actors {  get; set; }
+        string? Director { get; set; }
+        List<string> Actors { get; set; }
     }
 }

@@ -13,7 +13,7 @@
 
         public void Dispose()
         {
-            if(_observers is { })
+            if (_observers is { })
             {
                 _observers.Remove(_observer);
             }

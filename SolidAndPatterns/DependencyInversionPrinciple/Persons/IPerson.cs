@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DependencyInversionPrinciple
+﻿namespace DependencyInversionPrinciple
 {
     interface IPerson
     {

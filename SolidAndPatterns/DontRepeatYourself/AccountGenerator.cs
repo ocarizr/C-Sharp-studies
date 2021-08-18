@@ -14,7 +14,7 @@
 
         private string GetPartOfString(string str, int amountOfCharacters)
         {
-            if(str.Length > amountOfCharacters)
+            if (str.Length > amountOfCharacters)
             {
                 return str.Substring(0, amountOfCharacters);
             }

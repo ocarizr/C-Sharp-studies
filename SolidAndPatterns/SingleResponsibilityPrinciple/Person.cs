@@ -7,7 +7,7 @@
 
         public override string ToString()
         {
-            if(FirstName is null || LastName is null)
+            if (FirstName is null || LastName is null)
             {
                 return string.Empty;
             }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InterfaceSegregationPrinciple
+﻿namespace InterfaceSegregationPrinciple
 {
     class FantasyBook : Borrowable, IBorrowableBook
     {

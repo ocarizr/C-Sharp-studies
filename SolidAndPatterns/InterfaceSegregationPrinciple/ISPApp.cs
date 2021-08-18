@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace InterfaceSegregationPrinciple
+﻿namespace InterfaceSegregationPrinciple
 {
     public class ISPApp
     {

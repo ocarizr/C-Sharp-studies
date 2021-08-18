@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace OpenClosePrinciple
+﻿namespace OpenClosePrinciple
 {
     public class OCPApp
     {
@@ -23,7 +21,7 @@ namespace OpenClosePrinciple
 
             foreach (var employee in employees)
             {
-                System.Console.WriteLine($"{employee.FirstName} {employee.LastName}: {employee.EmailAddress}. Is Manager: {employee.IsManager}");
+                Console.WriteLine($"{employee.FirstName} {employee.LastName}: {employee.EmailAddress}. Is Manager: {employee.IsManager}");
             }
         }
     }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LiskovSubstitutionPrinciple
+﻿namespace LiskovSubstitutionPrinciple
 {
     public class LSPApp
     {

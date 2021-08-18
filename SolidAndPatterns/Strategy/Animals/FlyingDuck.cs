@@ -7,8 +7,8 @@
         private IBehaviour _eat;
 
         public FlyingDuck(
-            IBehaviour fly, 
-            IBehaviour sleep, 
+            IBehaviour fly,
+            IBehaviour sleep,
             IBehaviour eat)
         {
             _fly = fly;

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LiskovSubstitutionPrinciple
+﻿namespace LiskovSubstitutionPrinciple
 {
     class Manager : BaseManagedEmployee, IManager
     {

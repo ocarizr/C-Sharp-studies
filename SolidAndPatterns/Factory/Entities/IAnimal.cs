@@ -1,0 +1,6 @@
+﻿namespace FactoryMethod
+{
+    interface IAnimal
+    {
+    }
+}

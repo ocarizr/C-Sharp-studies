@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SingleResponsibilityPrinciple
+﻿namespace SingleResponsibilityPrinciple
 {
     class AccountGenerator
     {
