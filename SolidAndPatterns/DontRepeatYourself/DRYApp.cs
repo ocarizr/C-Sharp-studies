@@ -1,9 +1,10 @@
-﻿using System.Runtime.CompilerServices;
+﻿using AppBase;
+using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("DRYAppTest")]
 namespace DontRepeatYourself
 {
-    public class DRYApp
+    public class DRYApp : IApp
     {
         public void Run()
         {

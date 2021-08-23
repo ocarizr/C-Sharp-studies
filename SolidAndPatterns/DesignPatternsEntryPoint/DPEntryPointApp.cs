@@ -1,42 +1,36 @@
-﻿using Decorator;
+﻿using AppBase;
+using AbstractFactory;
+using Decorator;
 using FactoryMethod;
 using Observer;
 using Strategy;
 
 namespace DesignPatternsEntryPoint
 {
-    public class DPEntryPointApp
+    public class DPEntryPointApp : IApp
     {
+        enum DPTypes
+        {
+            Strategy,
+            Observer,
+            Decorator,
+            FactoryMethod,
+            AbstractFactory
+        }
+
         public void Run()
         {
-            // RunStrategyApp();
-            // RunObserverApp();
-            // RunDecoratorApp();
-            RunFactoryMethodApp();
+            GetApp(DPTypes.AbstractFactory).Run();
         }
 
-        private void RunStrategyApp()
+        IApp GetApp(DPTypes app) => app switch
         {
-            var app = new StrategyApp();
-            app.Run();
-        }
-
-        private void RunObserverApp()
-        {
-            var app = new ObserverApp();
-            app.Run();
-        }
-
-        private void RunDecoratorApp()
-        {
-            var app = new DecoratorApp();
-            app.Run();
-        }
-
-        private void RunFactoryMethodApp()
-        {
-            var app = new FactoryMethodApp();
-            app.Run();
-        }
+            DPTypes.Strategy => new StrategyApp(),
+            DPTypes.Observer => new ObserverApp(),
+            DPTypes.Decorator => new DecoratorApp(),
+            DPTypes.FactoryMethod => new FactoryMethodApp(),
+            DPTypes.AbstractFactory => new AbstractFactoryApp(),
+            _ => throw new Exception("Invalid Design Pattern App")
+        };
     }
 }

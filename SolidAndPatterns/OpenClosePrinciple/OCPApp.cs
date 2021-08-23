@@ -1,6 +1,8 @@
-﻿namespace OpenClosePrinciple
+﻿using AppBase;
+
+namespace OpenClosePrinciple
 {
-    public class OCPApp
+    public class OCPApp : IApp
     {
         public void Run()
         {

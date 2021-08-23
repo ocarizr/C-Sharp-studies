@@ -1,4 +1,5 @@
-﻿using DependencyInversionPrinciple;
+﻿using AppBase;
+using DependencyInversionPrinciple;
 using DontRepeatYourself;
 using InterfaceSegregationPrinciple;
 using LiskovSubstitutionPrinciple;
@@ -7,52 +8,32 @@ using SingleResponsibilityPrinciple;
 
 namespace SOLIDEntryPoint
 {
-    public class SolidApp
+    public class SolidApp : IApp
     {
+        enum SolidAppType
+        {
+            SRP,
+            OCP,
+            LSP,
+            ISP,
+            DIP,
+            DRY
+        }
+
         public void Run()
         {
-            // RunSRPApp();
-            // RunOCPApp();
-            // RunLSPApp();
-            // RunISPApp();
-            // RunDIPApp();
-            RunDRYApp();
+            GetApp(SolidAppType.DRY).Run();
         }
 
-        private void RunSRPApp()
+        private IApp GetApp(SolidAppType app) => app switch
         {
-            var app = new SRPApp();
-            app.Run();
-        }
-
-        private void RunOCPApp()
-        {
-            var app = new OCPApp();
-            app.Run();
-        }
-
-        private void RunLSPApp()
-        {
-            var app = new LSPApp();
-            app.Run();
-        }
-
-        private void RunISPApp()
-        {
-            var app = new ISPApp();
-            app.Run();
-        }
-
-        private void RunDIPApp()
-        {
-            var app = new DIPApp();
-            app.Run();
-        }
-
-        private void RunDRYApp()
-        {
-            var app = new DRYApp();
-            app.Run();
-        }
+            SolidAppType.SRP => new SRPApp(),
+            SolidAppType.OCP => new OCPApp(),
+            SolidAppType.LSP => new LSPApp(),
+            SolidAppType.ISP => new ISPApp(),
+            SolidAppType.DIP => new DIPApp(),
+            SolidAppType.DRY => new DRYApp(),
+            _ => throw new Exception("Invalid SolidApp type"),
+        };
     }
 }

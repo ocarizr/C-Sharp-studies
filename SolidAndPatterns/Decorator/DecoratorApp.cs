@@ -1,6 +1,8 @@
-﻿namespace Decorator
+﻿using AppBase;
+
+namespace Decorator
 {
-    public class DecoratorApp
+    public class DecoratorApp : IApp
     {
         public void Run()
         {

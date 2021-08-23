@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{03CF5B18-5473-4D6E-87E8-787A1745F466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Factory\FactoryMethod.csproj", "{5F382CE3-F7C7-45E4-91EB-95ACBCA084B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Factory\FactoryMethod.csproj", "{5F382CE3-F7C7-45E4-91EB-95ACBCA084B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodTest", "FactoryMethodTest\FactoryMethodTest.csproj", "{2AE20D24-86E2-43B9-A825-BAD65CDBCDA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodTest", "FactoryMethodTest\FactoryMethodTest.csproj", "{2AE20D24-86E2-43B9-A825-BAD65CDBCDA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbastractFactory\AbstractFactory.csproj", "{6F1A1998-B5CF-491A-8CD2-9CD5690E3AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBase", "AppBase\AppBase.csproj", "{36F32353-5730-494C-BFC4-CA86DDA0D395}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +111,14 @@ Global
 		{2AE20D24-86E2-43B9-A825-BAD65CDBCDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE20D24-86E2-43B9-A825-BAD65CDBCDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE20D24-86E2-43B9-A825-BAD65CDBCDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1A1998-B5CF-491A-8CD2-9CD5690E3AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1A1998-B5CF-491A-8CD2-9CD5690E3AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1A1998-B5CF-491A-8CD2-9CD5690E3AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1A1998-B5CF-491A-8CD2-9CD5690E3AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F32353-5730-494C-BFC4-CA86DDA0D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F32353-5730-494C-BFC4-CA86DDA0D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F32353-5730-494C-BFC4-CA86DDA0D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F32353-5730-494C-BFC4-CA86DDA0D395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

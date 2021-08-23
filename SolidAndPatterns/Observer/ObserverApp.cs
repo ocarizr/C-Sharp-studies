@@ -1,6 +1,8 @@
-﻿namespace Observer
+﻿using AppBase;
+
+namespace Observer
 {
-    public class ObserverApp
+    public class ObserverApp : IApp
     {
         public void Run()
         {

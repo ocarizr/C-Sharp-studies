@@ -1,6 +1,8 @@
-﻿namespace LiskovSubstitutionPrinciple
+﻿using AppBase;
+
+namespace LiskovSubstitutionPrinciple
 {
-    public class LSPApp
+    public class LSPApp : IApp
     {
         public void Run()
         {

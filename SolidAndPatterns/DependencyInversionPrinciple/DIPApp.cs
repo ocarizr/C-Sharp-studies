@@ -1,6 +1,8 @@
-﻿namespace DependencyInversionPrinciple
+﻿using AppBase;
+
+namespace DependencyInversionPrinciple
 {
-    public class DIPApp
+    public class DIPApp : IApp
     {
         public void Run()
         {

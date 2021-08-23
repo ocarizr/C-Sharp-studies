@@ -1,9 +1,10 @@
-﻿using System.Runtime.CompilerServices;
+﻿using AppBase;
+using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("FactoryMethodTest")]
 namespace FactoryMethod
 {
-    public class FactoryMethodApp
+    public class FactoryMethodApp : IApp
     {
         public void Run()
         {

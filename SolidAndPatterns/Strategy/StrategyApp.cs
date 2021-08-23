@@ -1,6 +1,8 @@
-﻿namespace Strategy
+﻿using AppBase;
+
+namespace Strategy
 {
-    public class StrategyApp
+    public class StrategyApp : IApp
     {
         public void Run()
         {

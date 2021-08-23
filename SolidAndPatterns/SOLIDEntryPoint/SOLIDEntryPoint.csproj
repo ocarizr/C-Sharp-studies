@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AppBase\AppBase.csproj" />
     <ProjectReference Include="..\DependencyInversionPrinciple\DependencyInversionPrinciple.csproj" />
     <ProjectReference Include="..\DontRepeatYourself\DontRepeatYourself.csproj" />
     <ProjectReference Include="..\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj" />

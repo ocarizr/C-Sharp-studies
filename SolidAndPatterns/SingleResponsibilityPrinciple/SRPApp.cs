@@ -1,6 +1,8 @@
-﻿namespace SingleResponsibilityPrinciple
+﻿using AppBase;
+
+namespace SingleResponsibilityPrinciple
 {
-    public class SRPApp
+    public class SRPApp : IApp
     {
         public void Run()
         {

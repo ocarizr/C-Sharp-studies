@@ -2,7 +2,11 @@
 {
     class Chore : IChore
     {
+#pragma warning disable CS8618 // Non-nullable property 'ChoreName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+#pragma warning disable CS8618 // Non-nullable property 'Owner' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
         public Chore(ILogger logger, IMessageSender messageSender)
+#pragma warning restore CS8618 // Non-nullable property 'Owner' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
+#pragma warning restore CS8618 // Non-nullable property 'ChoreName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.
         {
             _logger = logger;
             _messageSender = messageSender;

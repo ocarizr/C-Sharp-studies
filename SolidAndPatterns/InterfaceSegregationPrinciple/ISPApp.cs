@@ -1,6 +1,8 @@
-﻿namespace InterfaceSegregationPrinciple
+﻿using AppBase;
+
+namespace InterfaceSegregationPrinciple
 {
-    public class ISPApp
+    public class ISPApp : IApp
     {
         public void Run()
         {

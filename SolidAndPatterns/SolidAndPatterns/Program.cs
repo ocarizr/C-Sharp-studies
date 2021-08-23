@@ -1,26 +1,27 @@
-﻿using DesignPatternsEntryPoint;
+﻿using AppBase;
+using DesignPatternsEntryPoint;
 using SOLIDEntryPoint;
 
 namespace SolidAndPatterns
 {
     class Program
     {
+        enum EntryPoints
+        {
+            Solid,
+            DesignPattern
+        }
+
         static void Main(string[] args)
         {
-            // RunSolidApp();
-            RunDPApp();
+            GetApp(EntryPoints.DesignPattern).Run();
         }
 
-        static void RunSolidApp()
+        static IApp GetApp(EntryPoints app) => app switch
         {
-            var app = new SolidApp();
-            app.Run();
-        }
-
-        static void RunDPApp()
-        {
-            var app = new DPEntryPointApp();
-            app.Run();
-        }
+            EntryPoints.Solid => new SolidApp(),
+            EntryPoints.DesignPattern => new DPEntryPointApp(),
+            _ => throw new Exception("Invalid EntryPoint")
+        };
     }
 }
