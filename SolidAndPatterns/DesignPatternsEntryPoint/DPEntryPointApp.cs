@@ -1,5 +1,6 @@
 ﻿using AbstractFactory;
 using AppBase;
+using Command;
 using Decorator;
 using FactoryMethod;
 using Observer;
@@ -17,12 +18,13 @@ namespace DesignPatternsEntryPoint
             Decorator,
             FactoryMethod,
             AbstractFactory,
-            Singleton
+            Singleton,
+            Command
         }
 
         public void Run()
         {
-            GetApp(DPTypes.Singleton).Run();
+            GetApp(DPTypes.Command).Run();
         }
 
         IApp GetApp(DPTypes app) => app switch
@@ -33,6 +35,7 @@ namespace DesignPatternsEntryPoint
             DPTypes.FactoryMethod => new FactoryMethodApp(),
             DPTypes.AbstractFactory => new AbstractFactoryApp(),
             DPTypes.Singleton => new SingletonApp(),
+            DPTypes.Command => new CommandApp(),
             _ => throw new Exception("Invalid Design Pattern App")
         };
     }

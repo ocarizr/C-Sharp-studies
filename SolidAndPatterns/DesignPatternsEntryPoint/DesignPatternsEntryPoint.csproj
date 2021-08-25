@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AbastractFactory\AbstractFactory.csproj" />
+    <ProjectReference Include="..\Command\Command.csproj" />
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Factory\FactoryMethod.csproj" />
     <ProjectReference Include="..\Observer\Observer.csproj" />
